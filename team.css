@@ -1,0 +1,119 @@
+/* --- Global Styles & Font Import --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6; /* A softer, more professional background color */
+    color: #333;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: #012559;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1.5rem; /* Replaces word-spacing and &ensp; */
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent; /* For hover effect */
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a6d4ff;
+    border-bottom-color: #a6d4ff;
+}
+
+.nav-links a.active {
+    border-bottom-color: #ffffff; /* Highlights the current page */
+}
+
+.nav-contact {
+    color: #012559;
+    background-color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-contact:hover {
+    background-color: #a6d4ff;
+    color: #012559;
+}
+
+
+/* --- Main Content --- */
+.main-content {
+    max-width: 1200px;
+    margin: 2rem auto; /* Centers the content and adds space */
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #012559;
+}
+
+/* --- Teams Grid --- */
+.teams-grid {
+    display: grid;
+    /* This creates a responsive grid that fits as many columns as possible */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+/* --- Reusable Team Card Style --- */
+.team-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; /* Space between flag and name */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px); /* Lifts the card up on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-card img {
+    width: 100px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}

@@ -1,0 +1,181 @@
+/* --- Global Styles & Font Import --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    font-family: 'Roboto', sans-serif; /* Use the imported Google Font */
+}
+
+/* --- Navigation Bar (Your existing code is great!) --- */
+.navbar {
+    background-color: #012559;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a6d4ff;
+    border-bottom-color: #a6d4ff;
+}
+
+.nav-links a.active {
+    border-bottom-color: #ffffff;
+}
+
+.nav-contact {
+    color: #012559;
+    background-color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-contact:hover {
+    background-color: #a6d4ff;
+    color: #012559;
+}
+
+/* --- New Hero Section Styles --- */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff; /* A clean white background for the hero */
+}
+
+.hero-logo {
+    max-width: 400px; /* Reduced size slightly for balance */
+    margin-bottom: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #012559;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 2rem auto; /* Center the paragraph */
+}
+
+/* --- Improved "View Details" Button Style --- */
+.cta-button {
+    color: white;
+    background-color: #012559;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #003a8c;
+    transform: translateY(-3px); /* Add a subtle lift effect on hover */
+}
+
+
+/* --- New Features Section Styles --- */
+.features-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    color: #012559;
+    margin-bottom: 3rem;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #012559;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* --- New Footer Styles --- */
+.site-footer {
+    background-color: #012559;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.site-footer p {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}

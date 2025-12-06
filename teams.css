@@ -1,0 +1,155 @@
+nav{
+    text-decoration: none;
+    word-spacing: 3em;
+     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+#Teams{
+    text-decoration: underline;
+}
+img{
+    vertical-align: middle;
+}
+nav{
+    background-color: #012559;
+}
+a:hover{
+    color: rgb(166, 164, 164);
+
+}
+#main{
+    background-color: #cee1fb;
+}
+#one{
+background-color: rgb(255, 255, 255);
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#two{
+background-color: white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#three{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#four{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#five{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#six{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#seven{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#eight{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+#nine{
+background-color:  white;
+height: 250px;
+width: 350px;
+border-radius: 3%;
+
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #cee1fb;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #cee1fb;
+}
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #cee1fb;
+}
+div{
+    background-color: #012559;
+}
+p{
+    font-size: 24px;
+}
+#one:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#two:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#three:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#four:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#five:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#six:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#seven:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#eight:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+#nine:hover{
+    box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+box-shadow: 8px 10px 20px 0px rgba(0,0,0,0.1),-10px -7px 17px 0px rgba(0,0,0,0.1);
+}
+*{
+    font-family: sans-serif;
+}

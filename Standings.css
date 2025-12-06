@@ -1,0 +1,172 @@
+/* --- Global Styles & Font Import --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6; /* A softer, more professional background color */
+    color: #333;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: #012559;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1.5rem; /* Replaces word-spacing and &ensp; */
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent; /* For hover effect */
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a6d4ff;
+    border-bottom-color: #a6d4ff;
+}
+
+.nav-links a.active {
+    border-bottom-color: #ffffff; /* Highlights the current page */
+}
+
+.nav-contact {
+    color: #012559;
+    background-color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-contact:hover {
+    background-color: #a6d4ff;
+    color: #012559;
+}
+/* Main Container for the Tables */
+.standings-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    width: 1000px;
+    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Group Title (A, B) */
+.group-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #1a202c;
+}
+
+.group-title:first-of-type {
+    margin-top: 0;
+}
+
+/* Table Wrapper for consistent styling */
+.table-wrapper {
+    overflow-x: auto; /* For responsiveness on small screens */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+/* Table Header and Cell Styles */
+th, td {
+    padding: 16px 12px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+thead tr {
+    border-bottom: 2px solid #e2e8f0;
+}
+
+th {
+    font-weight: 600;
+    color: #718096;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+/* Align Team column to the left */
+.team-header, .team-cell {
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #edf2f7;
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove border from the last row */
+}
+
+/* Team Cell Specifics (Rank, Flag, Name) */
+.team-cell {
+    display: flex;
+    align-items: center;
+}
+
+.rank {
+    width: 25px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.flag {
+    width: 28px;
+    height: auto;
+    margin-right: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.team-name {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+/* Points Column Style */
+.points {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1a202c;
+}
+.group-title{
+    color: #012559;
+    font-weight: none;
+    font-family: sans-serif;
+}
+*{
+    font-family: sans-serif;
+}
